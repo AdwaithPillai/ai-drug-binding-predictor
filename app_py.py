@@ -8,7 +8,6 @@ Original file is located at
 """
 
 
-```python
 from rdkit import Chem
 from rdkit.Chem import Draw
 import streamlit as st
@@ -55,7 +54,7 @@ model = load_model()
 
 st.title("💊 AI Drug-Target Binding Affinity Predictor")
 st.markdown(
-    "Predict small-molecule binding affinity ($\text{pK}_\text{d}$) directly from molecular 2D graphs using **PyTorch Geometric GCN**."
+    r"Predict small-molecule binding affinity ($\text{pK}_\text{d}$) directly from molecular 2D graphs using **PyTorch Geometric GCN**."
 )
 
 smiles_input = st.text_input(
