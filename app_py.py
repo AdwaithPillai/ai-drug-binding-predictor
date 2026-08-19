@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1ZP7aauv0Hrw0Xhbu_EgHg6S1FFM4TMIZ
 """
 
-streamlit run app.py
 
 ```python
 from rdkit import Chem
